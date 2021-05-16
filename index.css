@@ -56,6 +56,7 @@ b {
     display: block;
     flex-basis: 100%;
     width: 0.5rem;
+    padding: 0.5rem;
   }
   main > * {
     flex-grow: 1;
@@ -63,7 +64,7 @@ b {
     max-width: 30rem;
     min-width: 22.5rem;
     width: 24%;
-    width: calc(100% / 4 - 1rem);
+    width: calc(160% / 4 - 1rem);
   }
 }
 @media not all and (min-width: 60rem) {
@@ -95,6 +96,7 @@ body {
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  font-size: 0.9rem;
 }
 body > header,
 body > footer {
@@ -173,6 +175,7 @@ article {
   hyphens: auto;
   line-height: 1.35;
   padding: 0 0.5rem 0.5rem 0.5rem;
+  text-align: justify;
 }
 article > header {
   background: #2e3436;
